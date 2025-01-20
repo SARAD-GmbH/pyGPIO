@@ -1,5 +1,8 @@
 Changelog
 =========
+    * pyA20 0.2.2 (20 JAN 2025)
+        * Add a wrapper to mimic gpiozero (Michael Strey)
+
     * pyA20 0.2.1 (30 JUN 2015)
         * Fixed gpio1 connector constants
         * Fixed issue with SPI xfer function
