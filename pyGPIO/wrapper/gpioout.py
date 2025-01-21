@@ -12,7 +12,7 @@ The functionality is reduced to the minimum required for our application.
 from itertools import repeat
 from threading import Event, Thread
 
-from gpio import gpio, port
+from pyGPIO.gpio import gpio, port
 
 _THREADS = set()
 
