@@ -379,7 +379,7 @@ setup(
     author_email="support@olimex.com",
     url="https://www.olimex.com/",
     license="MIT",
-    packages=["pyGPIO", "pyGPIO.gpio"],
+    packages=["pyGPIO", "pyGPIO.gpio", "pyGPIO.wrapper"],
     description="Control GPIO, I2C and SPI",
     long_description=open("README.txt").read() + open("CHANGES.txt").read(),
     classifiers=[
