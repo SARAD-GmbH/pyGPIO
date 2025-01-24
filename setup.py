@@ -374,7 +374,7 @@ modules = [
 
 setup(
     name="pyGPIO",
-    version="0.2.2",
+    version="0.2.3",
     author="Stefan Mavrodiev",
     author_email="support@olimex.com",
     url="https://www.olimex.com/",

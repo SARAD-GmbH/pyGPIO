@@ -73,8 +73,7 @@ class LED:
         gpio.init()
         self.port = port.GPIO4
         gpio.setcfg(self.port, 1)  # gpio4 as output
-        self._active_state = True
-        self._inactive_state = False
+        self.closed = False
 
     def _write(self, value):
         if value:
@@ -85,6 +84,7 @@ class LED:
     def close(self):
         self._stop_blink()
         gpio.init()
+        self.closed = True
 
     def on(self):
         self._stop_blink()
