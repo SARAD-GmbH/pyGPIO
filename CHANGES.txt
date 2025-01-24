@@ -1,7 +1,8 @@
 Changelog
 =========
-    * pyA20 0.2.3 (24 JAN 2025)
+    * pyA20 0.2.4 (24 JAN 2025)
         * Add `closed` property to LED class in wrapper
+        * Switch the GPIO 4 to input at self.close() in order to keep it off
 
     * pyA20 0.2.2 (20 JAN 2025)
         * Add a wrapper to mimic gpiozero (Michael Strey)

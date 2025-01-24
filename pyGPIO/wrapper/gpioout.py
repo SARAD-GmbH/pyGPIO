@@ -82,8 +82,9 @@ class LED:
             gpio.output(self.port, 0)
 
     def close(self):
-        self._stop_blink()
+        self.off()
         gpio.init()
+        gpio.setcfg(self.port, 0)  # gpio4 as input to keep the LED off
         self.closed = True
 
     def on(self):
